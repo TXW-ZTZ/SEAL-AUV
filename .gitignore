@@ -1,0 +1,33 @@
+# Code-only repository: allow only source and essential documentation.
+/*
+!/*.py
+!/README.md
+!/requirements.txt
+!/run_pipeline.bat
+!/.gitignore
+!/.gitattributes
+# Generated data and model artifacts (also excluded by the allowlist above).
+__pycache__/
+*.pyc
+checkpoints/
+logs/
+figures/
+experiments/
+_tmp*/
+.codex_tmp/
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.xlsx
+*.xls
+*.pdf
+*.docx
+.env
+.env.*

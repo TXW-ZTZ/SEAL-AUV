@@ -1,0 +1,6 @@
+numpy>=1.21
+# 默认训练使用 GPU；请安装与本机 CUDA 匹配的 PyTorch，例如：
+# pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.0
+matplotlib>=3.5
+gym>=0.21
